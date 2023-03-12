@@ -1,0 +1,95 @@
+.shop-row:first-child {
+    display: flex;
+}
+
+.shop-col:first-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-col:first-child h2 {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.shop-col:last-child {
+    flex: 5;
+}
+
+.shop-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.shop-btn {
+    width: max-content;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.shop-btn svg {
+    transition: all 0.5s;
+}
+
+.shop-btn:hover svg {
+    color: #ff0000;
+    margin-left: 5px;
+}
+
+.shop-pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns a {
+    padding: 5px 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: #000000;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+.paginationActive a {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+.paginationDisabled a {
+    color: rgba(128, 128, 128, 0.11);
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+.paginationDisabled:hover a {
+    background-color: rgba(128, 128, 128, 0.11);
+    color: rgba(128, 128, 128, 0.11);
+}
+
+@media screen and (max-width: 530px) {
+    .shop-row:first-child {
+        flex-direction: column;
+    }
+
+    .shop-col:first-child {
+        display: flex;
+        align-items: center;
+        flex-direction: unset;
+    }
+}

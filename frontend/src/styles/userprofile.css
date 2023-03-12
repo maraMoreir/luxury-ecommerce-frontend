@@ -1,0 +1,18 @@
+form .account-back {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+form .account-back a {
+    color: #000000;
+    letter-spacing: 1.4px;
+}
+
+form .account-back a:hover {
+    text-decoration: underline;
+}
+
+form .account-back a svg {
+    font-size: 14px;
+}

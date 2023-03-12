@@ -1,0 +1,26 @@
+.hps-container {
+    padding: 20px 25px;
+}
+
+.hps-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.hps-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.loading {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.error {
+    color: #ff0000;
+}

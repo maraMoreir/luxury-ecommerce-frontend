@@ -1,0 +1,76 @@
+.account-container {
+    min-height: 100vh;
+}
+
+.account-row:first-child {
+    margin: 20px 0 80px 0;
+}
+
+.account-title {
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.account-row:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.account-row:last-child .account-col:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-row:last-child .account-col:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-row:last-child .account-col:first-child a {
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 1.4px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.account-row:last-child .account-col:first-child a svg {
+    font-size: 14px;
+}
+
+.account-row:last-child .account-col:first-child a:hover {
+    text-decoration: underline;
+}
+
+.account-row:last-child .account-col:last-child img {
+    width: 300px;
+    height: auto;
+}
+
+.name-user {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .account-row:last-child {
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .account-row:last-child .account-col {
+        align-items: center;
+    }
+
+    .account-row:last-child .account-col:first-child {
+        margin-bottom: 30px;
+    }
+
+    .account-row:last-child .account-col:last-child img {
+        width: 250px;
+        height: auto;
+    }
+}

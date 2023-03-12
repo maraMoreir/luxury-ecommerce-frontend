@@ -1,0 +1,65 @@
+.f-container {
+    padding: 20px 15px;
+}
+
+.f-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-col:first-child img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.f-col:first-child p {
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.f-col:nth-child(2) h2,
+.f-col:nth-child(3) h2,
+.f-col:last-child h2 {
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+.f-col:nth-child(2) ul li,
+.f-col:nth-child(3) ul li {
+    margin-bottom: 10px;
+}
+
+.f-col:nth-child(2) ul li a,
+.f-col:nth-child(3) ul li a {
+    color: #001e28;
+    letter-spacing: 1.2px;
+}
+
+.f-col:nth-child(2) ul li a:hover,
+.f-col:nth-child(3) ul li a:hover {
+    color: #ff0000;
+}
+
+.f-copyrow p {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0;
+    letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 780px) {
+    .f-row {
+        flex-direction: column;
+    }
+
+    .f-col {
+        margin-bottom: 20px;
+    }
+}

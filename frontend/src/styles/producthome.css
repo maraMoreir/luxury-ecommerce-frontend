@@ -1,0 +1,61 @@
+.hp-card {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 10px #000000;
+    margin: 0 15px 15px 15px;
+    border-radius: 10px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.card-header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header img {
+    width: 60%;
+    transition: all 0.5s;
+}
+
+.hp-card:hover .card-header img {
+    transform: scale(1.04);
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.card-footer {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-footer button {
+    padding: 5px 15px;
+    border: none;
+    transition: all 0.5s;
+    border-radius: 3px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #000000;
+}
+
+.card-footer button:hover {
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 800px) {
+    .eye {
+        display: none;
+    }
+
+}

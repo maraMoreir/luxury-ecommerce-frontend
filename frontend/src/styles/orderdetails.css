@@ -1,0 +1,23 @@
+.order-details-container {
+    min-height: 100vh;
+}
+
+.order-details-row {
+    margin: 20px 0 50px 0;
+}
+
+.order-details-title {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.order-details-subtitle {
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.after {
+    font-size: 10px;
+    color: #ff0000;
+}

@@ -1,0 +1,22 @@
+.checkout-steps {
+    margin: 40px 0 0px 0;
+    display: flex;
+}
+
+.checkout-steps>p {
+    border-bottom: 0.2rem solid #a0a0a0;
+    color: #a0a0a0;
+    margin: 0 50px;
+}
+
+.checkout-steps>p.active {
+    border-bottom: 0.2rem solid #f08000;
+    color: #f08000;
+}
+
+@media screen and (max-width: 600px) {
+    .checkout-steps>p {
+        font-size: 12px;
+        margin: 0 10px;
+    }
+}

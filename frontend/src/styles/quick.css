@@ -1,0 +1,145 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: #0000001e;
+}
+
+.main-containerOne {
+    display: none;
+}
+
+.card-quick {
+    width: 800px;
+    background-color: #ffffff;
+    padding: 30px 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.card-row {
+    flex: 1;
+}
+
+.card-top img {
+    width: 300px;
+}
+
+.card-top {
+    display: flex;
+    justify-content: center;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-bottom img {
+    width: 75px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #000000;
+    padding: 2px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card-bottom img:hover {
+    transform: scale(1.02);
+}
+
+.div {
+    margin-bottom: 60px;
+}
+
+.title {
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.category {
+    text-transform: uppercase;
+    padding: 2px 10px;
+    background-color: #000000;
+    max-width: max-content;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.quantity {
+    padding: 2px 30px;
+    background-color: #00000011;
+    margin-top: 15px;
+    max-width: max-content;
+    margin-top: 20px;
+}
+
+.desc {
+    letter-spacing: 1.2px;
+}
+
+.fourth-div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    border: none;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+}
+
+button:active {
+    transform: translateY(-10px);
+}
+
+.cart {
+    background-color: #ffee00;
+    color: #ffffff;
+}
+
+.wish {
+    background-color: #0066ff;
+    color: #ffffff;
+}
+
+.cart:hover {
+    background-color: #ffffff;
+    color: #ffee00;
+}
+
+.wish:hover {
+    background-color: #ffffff;
+    color: #0066ff;
+}
+
+.back {
+    padding: 5px 25px;
+    background-color: #000000;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.back:hover {
+    transform: translateY(-5px);
+}

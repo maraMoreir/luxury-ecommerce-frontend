@@ -1,0 +1,42 @@
+.payment-container {
+    min-height: 100vh;
+}
+
+.payment-row:first-child {
+    margin: 40px 0 40px 0;
+}
+
+.payment-title {
+    text-align: center;
+    letter-spacing: 1.4px;
+}
+
+.payment-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-col form {
+    width: 310px;
+}
+
+.payment-row:last-child .payment-col form .form-group {
+    display: flex;
+    flex-direction: unset;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.payment-row:last-child .payment-col form .form-group input {
+    width: unset;
+    height: unset;
+    margin-left: 5px;
+}
+
+.payment-col form .form-group button {
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+}

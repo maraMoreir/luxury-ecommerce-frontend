@@ -1,0 +1,67 @@
+.orderhistory-container {
+    min-height: 100vh;
+}
+
+.orderhistory-row:first-child {
+    margin: 20px 0 80px 0;
+}
+
+.orderhistory-title {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.orderhistory-row:last-child .orderhistory-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderhistory-row:last-child .orderhistory-col .tables {
+    width: 70%;
+    overflow-x: auto;
+}
+
+.orderhistory-row:last-child .orderhistory-col table {
+    width: 100%;
+    white-space: nowrap;
+
+}
+
+.orderhistory-row:last-child .orderhistory-col table tbody tr {
+    text-align: center;
+}
+
+.orderhistory-row:last-child .orderhistory-col table tbody tr td button {
+    background-color: #000000;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.orderhistory-row:last-child .orderhistory-col table tbody tr td button:hover {
+    background-color: #ff0000;
+}
+
+.orderhistory-row:last-child .orderhistory-col table th,
+.orderhistory-row:last-child .orderhistory-col table td {
+    padding: 5px 15px;
+}
+
+.orderhistory-row:last-child .orderhistory-col .account-back {
+    margin-top: 50px;
+}
+
+.orderhistory-row:last-child .orderhistory-col .account-back a {
+    color: #000000;
+    letter-spacing: 1.4px;
+}
+
+.orderhistory-row:last-child .orderhistory-col .account-back a svg {
+    font-size: 14px;
+}
+
+.orderhistory-row:last-child .orderhistory-col .account-back a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+.about {
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 4rem;
+}
+
+.about .row .content {
+    text-align: center;
+}
+
+
+.about .row .content h3 {
+    font-size: 3rem;
+    color: var(--color);
+    text-align: center;
+    margin: 20px;
+}
+
+.about .row .content p {
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+    background: linear-gradient(45deg, #001e28, #0000000d);
+    margin-bottom: 5em;
+    border-radius: 5px;
+}
+
+.BTN {
+    color: black;
+    background: linear-gradient(45deg, #001e28, #0000000d);
+}

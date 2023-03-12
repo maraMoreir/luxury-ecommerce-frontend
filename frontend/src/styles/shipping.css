@@ -1,0 +1,28 @@
+.shipping-container {
+    min-height: 100vh;
+}
+
+.shipping-row:first-child {
+    margin: 40px 0 40px 0;
+}
+
+.shipping-title {
+    text-align: center;
+    letter-spacing: 1.4px;
+}
+
+.shipping-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shipping-col form {
+    width: 310px;
+}
+
+.shipping-col form .form-group button {
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+}
